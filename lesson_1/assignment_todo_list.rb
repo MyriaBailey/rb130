@@ -203,37 +203,37 @@ list.add(todo3)                 # adds todo3 to end of list, returns list
 # ---- Interrogating the list -----
 
 # size
-list.size                       # returns 3
+# list.size                       # returns 3
 
 # first
-list.first                      # returns todo1, which is the first item in the list
+# list.first                      # returns todo1, which is the first item in the list
 
 # last
-list.last                       # returns todo3, which is the last item in the list
+# list.last                       # returns todo3, which is the last item in the list
 
 #to_a
-list.to_a                      # returns an array of all items in the list
+# list.to_a                      # returns an array of all items in the list
 
 #done?
-list.done?                     # returns true if all todos in the list are done, otherwise false
+# list.done?                     # returns true if all todos in the list are done, otherwise false
 
 # ---- Retrieving an item in the list ----
 
 # item_at
 # list.item_at                    # raises ArgumentError
-list.item_at(1)                 # returns 2nd item in list (zero based index)
+# list.item_at(1)                 # returns 2nd item in list (zero based index)
 # list.item_at(100)               # raises IndexError
 
 # ---- Marking items in the list -----
 
 # mark_done_at
 # list.mark_done_at               # raises ArgumentError
-list.mark_done_at(1)            # marks the 2nd item as done
+# list.mark_done_at(1)            # marks the 2nd item as done
 #list.mark_done_at(100)          # raises IndexError
 
 # mark_undone_at
 # list.mark_undone_at             # raises ArgumentError
-list.mark_undone_at(1)          # marks the 2nd item as not done,
+# list.mark_undone_at(1)          # marks the 2nd item as not done,
 # list.mark_undone_at(100)        # raises IndexError
 
 # done!
@@ -255,7 +255,7 @@ list.mark_undone_at(1)          # marks the 2nd item as not done,
 # ---- Outputting the list -----
 
 # to_s
-list.to_s                      # returns string representation of the list
+# list.to_s                      # returns string representation of the list
 
 # ---- Today's Todos ----
 # [ ] Buy milk
@@ -277,7 +277,7 @@ list.to_s                      # returns string representation of the list
 
 # Select method:
 
-todo1.done!
+# todo1.done!
 
 # results = list.select { |todo| todo.done? }    # you need to implement this method
 
@@ -289,6 +289,6 @@ todo1.done!
 
 # puts list.all_not_done
 
-list.mark_done("Go to gym")
-list.mark_all_undone
-puts list
+# list.mark_done("Go to gym")
+# list.mark_all_undone
+# puts list
